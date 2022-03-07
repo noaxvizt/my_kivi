@@ -1,0 +1,28 @@
+
+
+<Container>:
+    Label:
+        size_hint: 0.8, 0.2
+        pos_hint: {"center_x": 0.5, "center_y": 0.8}
+        text: "Добро пожаловать \n на окно авторизации"
+        font_size: dp(30)
+        color: "black"
+        halign: 'center'
+    TextInput:
+        size_hint: 0.6, 0.1
+        pos_hint: {"center_x": 0.5, "center_y": 0.65}
+        text: "Имя пользователя"
+        font_size: dp(20)
+        multiline: False
+        color: "gray"
+    TextInput:
+        size_hint: 0.6, 0.1
+        pos_hint: {"center_x": 0.5, "center_y": 0.53}
+        multiline: False
+        font_size: dp(20)
+        text: "Пароль"
+        color: "gray"
+    Button:
+        size_hint: 0.6, 0.1
+        pos_hint: {"center_x": 0.5, "center_y": 0.4}
+        text: "Войти"
